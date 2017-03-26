@@ -1,0 +1,437 @@
+/*===============================================
+DYNAMIC CSS
+=================================================*/
+
+@brand-primary: darken(#428bca, 6.5%); // #337ab7
+@brand-success: #5cb85c;
+@brand-info:    #5bc0de;
+@brand-warning: #f0ad4e;
+@brand-danger:  #d9534f;
+@gray-darker:  lighten(#000, 13.5%); // #222
+@gray-dark:    lighten(#000, 20%);   // #333
+@gray:         lighten(#000, 33.5%); // #555
+@gray-light:   lighten(#000, 46.7%); // #777
+@gray-lighter: lighten(#000, 93.5%); // #eee
+
+
+
+@media screen and (min-width: 1366px) {
+  #gallery-1 img {width:375px;}
+}
+@media screen and (min-width: 1440px) {
+  #gallery-1 img {width:428px;}
+}
+@media screen and (min-width: 1600px) {
+  #gallery-1 img {width:434px;}
+}
+@media screen and (min-width: 1920px) {
+  #gallery-1 img {width:540px;}
+}
+
+
+/*===============================================
+TYPE RELATED CSS
+=================================================*/
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+body{
+  background-color:white;
+
+background-image:url("../../images/background.jpg");
+  max-width: 100%;
+  overflow-x: hidden;
+
+
+}
+img{
+	//pointer-events:none;
+	//-webkit-user-select: none;
+	//-webkit-touch-callout: none;
+}
+
+th,td {
+  padding: 15px;
+}
+
+html{
+  height:100%;
+}
+tr td {
+	height:60px;
+}
+
+
+/*===============================================
+ID RELATE CSS
+=================================================*/
+#hoverDD:hover {
+  display:block;
+
+}
+#JoinID{
+  width: 80%;
+
+}
+#viewbar{
+  padding:0;
+  margin:0;
+}
+#content{
+  margin:0px;
+}
+#viewbar-button1,#viewbar-button2,#viewbar-button3{
+  /*height:inherit;*/
+  display:inline;
+  margin:0;
+  padding:0;
+  width:32%;
+  height:inherit;
+  background-color:inherit;
+  border:none;
+
+}
+#viewbar-button1:hover,#viewbar-button2:hover,#viewbar-button3:hover{
+  background-color:cyan;
+
+}
+
+#viewbar-panel{
+  padding:0px;
+  margin:0px;
+
+}
+
+#content{
+  max-width:100%;
+  /*overflow-x: hidden;*/
+
+
+}
+#pageheader{
+  margin-top:0px;
+}
+#Description{
+  min-height: 60px;
+  background-color: gray;
+  border-style: solid;
+  width:100%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding:5px;
+
+}
+#ActivityDescription{
+  min-height: 60px;
+  background-color: gray;
+  border-style: solid;
+  width:100%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding:5px;
+
+}
+#ActivityDescriptionHeader{
+
+width:100%;
+background-color:black;
+color:white;
+
+}
+
+#DescriptionBox{
+  height:100px;
+  width:100%;
+}
+
+
+#ProfileDescriptionHeader{
+
+width:100%;
+background-color:black;
+color:white;
+
+
+
+
+}
+
+#UserProfileNavbar ul li{
+  padding:20px;
+
+}
+
+#loginpage{
+  background-image:url("../../images/IMG_2812-2.JPG");
+  background-size:cover;
+
+}
+
+
+
+#buttons{
+  margin-left:auto;
+  margin-right:auto;
+  vertical-align:center;
+  height:25%;
+  width:40%;
+  min-width:200px;
+}
+
+#buttons button{
+  width:100%;
+  color:white;
+  height:100%;
+  background-image:url("../../images/background2.jpg");
+  background-size:cover;
+  z-index:1;
+  font-size:1.2em;
+  /*opacity:0.9;*/
+  box-shadow:10px 10px 5px black;
+  border-radius:8px;
+  margin-top:10px;
+  margin-bottom:10px;
+}
+
+#buttons button:hover{
+  background-image:url("../../images/background2hover.jpg");
+  background-color:cyan;
+  box-shadow:10px 10px 5x white;
+}
+
+#form1{
+
+  margin-left:auto;
+  margin-right:auto;
+  vertical-align:center;
+  background-color:green;
+  height:500px;
+  width:20%;
+  text-align:center;
+}
+
+#input1{
+  width:50%;
+  margin-bottom:3%;
+  margin-top:3%;
+  vertical-align:center;
+  border-style:thin;
+}
+
+#input2 {
+  width:100%;
+}
+
+#input3{
+  width:25%;
+  margin-bottom:3%;
+  margin-top:3%;
+  vertical-align:center;
+  border-style:thin;
+}
+
+#loginbox{
+  opacity:0.9;
+  color:white;
+
+  background-image:url("../../images/background2.jpg");
+  background-size:cover;
+  /*box-shadow:5px 5px 2px;*/
+  border-radius:9px;
+  border-color:white;
+  border-style:double;
+  padding-top:2%;
+  padding-bottom:2%;
+  margin-top:20%;
+  /*height:300px;*/
+
+  min-width:100px;
+  text-align:center;
+}
+
+#loginform{
+  opacity:0.9;
+}
+
+#create-account{
+  border-radius:2px;
+  border-color:white;
+  border-style:double;
+  background-image:url("../../images/loginbackground.jpg");
+  color:white;
+  text-align:center;
+}
+
+#panel-heading{
+  background-color:@gray-darker;
+  color:black;
+}
+
+#addcontact{
+}
+#TransactionRequestsTable{
+  background-color:white;
+  color:black;
+  /*background-image:url("images/loginbackground.jpg");*/
+  background-size:tile;
+  background-size:5% 5%;
+  /*box-shadow:5px 5px 2px;
+  border-radius:0px;
+  border-style:double;*/
+  padding: 20px;
+
+
+
+
+}
+#transactiontable{
+
+  color:black;
+  text-align:center;
+}
+
+#numericInput{
+    position:relative;
+}
+#numBox{
+    width:150px;
+    height:20px;
+    text-align:right;
+    border:solid 1px black;
+    cursor:text;
+    overflow:hidden;
+}
+#keypad{
+    width:150px;
+    height:200px;
+    border:solid 1px black;
+    display:none;
+    position:absolute;
+    top:22px;
+    left:1px;
+}
+#CI {
+  margin-left: 0px!important;
+  margin-right:0px!important;
+  padding-left: 0px!important;
+  padding-right:0px!important;
+  border-radius: 0px !important;
+}
+#CI .panel-heading, .panel-default {
+    border:solid 1px black!important;
+    border-radius: 0px !important;
+  }
+
+#JT {
+  margin-left: 0px!important;
+  margin-right:0px!important;
+  padding-left: 0px!important;
+  padding-right:0px!important;
+
+}
+#JT .panel-heading, .panel-default {
+    border:solid 1px black!important;
+    border-radius: 0px !important;
+}
+#ContactBox{
+  margin-left: 0px!important;
+  margin-right:0px!important;
+  padding-left: 0px!important;
+  padding-right:0px!important;
+
+}
+#ContactBox .panel-heading, .panel-default {
+  border:solid 1px black!important;
+  border-radius: 0px !important;
+}
+#DescriptionBox{
+  margin-left: 0px!important;
+  margin-right:0px!important;
+  padding-left: 0px!important;
+  padding-right:0px!important;
+
+}
+#DescriptionBox .panel-heading, .panel-default {
+  border:solid 1px black!important;
+  border-radius: 0px !important;
+}
+#submitButton{
+  border:solid 1px black;
+  border-radius: 8px;
+}
+
+/*===============================================
+CLASS RELATE CSS
+=================================================*/
+.panel-heading{
+  height:50px;
+  text-align:center;
+
+}
+.contact {
+  cursor: pointer;
+}
+
+.ContactSelected{
+  box-shadow: 0px 0px 2px #000;
+}
+.whiteglow{
+    box-shadow: 0px 0px 2px #000;
+
+}
+.toppadding{
+  padding-top:33.33%;
+}
+.padding10{
+	padding:10px;
+}
+
+.panel-default>.panel-heading.lightbluebg{
+	/*background-color:LightBlue;*/
+}
+.key{
+    border:solid 1px black;
+    background-color:blue;
+    text-align:center;
+    font-weight:bold;
+    color:white;
+    cursor:pointer;
+}
+.key:hover{
+    background-color:LightBlue;
+}
+.key:active{
+    background-color:white;
+}
+.button{
+    border:solid 1px black;
+    text-align:center;
+    font-weight:bold;
+    color:black;
+    cursor:pointer;
+    background-color:DimGray;
+    width:33.3%;
+}
+.button:hover{
+    background-color:DarkGray;
+}
+.button:active{
+    background-color:LightGray;
+}
+.maxwidth{
+	width:100%;
+}
+
+.panel-default>.panel-heading.whitefont{
+  color:black;
+}
+.singlelineborder{
+font-size: 250%;
+  height:60px;
+   border-top-style: none;
+    border-right-style: none;
+    border-bottom-style: double;
+    border-left-style: none;
+}
